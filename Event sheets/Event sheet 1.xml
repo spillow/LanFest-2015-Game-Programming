@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <variable constant="0" name="Score" sid="1891150909400656" static="0" type="number">0</variable>
         <event-block sid="6359188544210519">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="5420384501611265" type="System" />
@@ -11,6 +12,10 @@
                 <action id="4" name="Set animation" sid="150552864193788" type="Frog">
                     <param id="0" name="Animation">&quot;StandUp&quot;</param>
                     <param id="1" name="From">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="8309474482738817" type="Frog">
+                    <param id="0" name="X">75</param>
+                    <param id="1" name="Y">910</param>
                 </action>
             </actions>
         </event-block>
@@ -85,7 +90,7 @@
         <event-block sid="873826918830511">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="9913859161286571" type="System">
-                    <param id="0" name="Interval (seconds)">2</param>
+                    <param id="0" name="Interval (seconds)">random(3, 6)</param>
                 </condition>
             </conditions>
             <actions>
@@ -95,8 +100,122 @@
                     <param id="2" name="X">1390</param>
                     <param id="3" name="Y">250</param>
                 </action>
-                <action id="-8" name="Set angle" sid="4111795035376436" type="Car">
-                    <param id="0" name="Angle">180</param>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="3804909161649486" type="Car">
+                    <param id="0" name="Angle">-180</param>
+                </action>
+                <action id="4" name="Set animation" sid="1108317346086388" type="Car">
+                    <param id="0" name="Animation">tokenat(&quot;taxi:police&quot;, int(random(2)), &quot;:&quot;)</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4096770898304656">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="1919491583955641" type="System">
+                    <param id="0" name="Interval (seconds)">random(3, 6)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="9677554743292614" type="System">
+                    <param id="0" name="Object to create">Car</param>
+                    <param id="1" name="Layer">&quot;Stuff&quot;</param>
+                    <param id="2" name="X">1390</param>
+                    <param id="3" name="Y">504</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="4533072065671624" type="Car">
+                    <param id="0" name="Angle">-180</param>
+                </action>
+                <action id="4" name="Set animation" sid="5983986606579429" type="Car">
+                    <param id="0" name="Animation">tokenat(&quot;taxi:police&quot;, int(random(2)), &quot;:&quot;)</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2975812983077656">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="6756631408243542" type="System">
+                    <param id="0" name="Interval (seconds)">random(3, 6)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="4153511660623032" type="System">
+                    <param id="0" name="Object to create">Car</param>
+                    <param id="1" name="Layer">&quot;Stuff&quot;</param>
+                    <param id="2" name="X">1390</param>
+                    <param id="3" name="Y">755</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="4110755692638435" type="Car">
+                    <param id="0" name="Angle">-180</param>
+                </action>
+                <action id="4" name="Set animation" sid="6885607874249592" type="Car">
+                    <param id="0" name="Animation">tokenat(&quot;taxi:police&quot;, int(random(2)), &quot;:&quot;)</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1393399714154165">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="5717931157643788" type="System">
+                    <param id="0" name="Interval (seconds)">random(3, 6)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="1049664895044134" type="System">
+                    <param id="0" name="Object to create">Car</param>
+                    <param id="1" name="Layer">&quot;Stuff&quot;</param>
+                    <param id="2" name="X">-100</param>
+                    <param id="3" name="Y">339</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" sid="1774824000187914" type="Car">
+                    <param id="0" name="Speed">-400</param>
+                </action>
+                <action id="4" name="Set animation" sid="4031083325729983" type="Car">
+                    <param id="0" name="Animation">tokenat(&quot;taxi:police&quot;, int(random(2)), &quot;:&quot;)</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5623815826373704">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="4485050121937238" type="System">
+                    <param id="0" name="Interval (seconds)">random(3, 6)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="4359855059403015" type="System">
+                    <param id="0" name="Object to create">Car</param>
+                    <param id="1" name="Layer">&quot;Stuff&quot;</param>
+                    <param id="2" name="X">-100</param>
+                    <param id="3" name="Y">589</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" sid="6226850640255095" type="Car">
+                    <param id="0" name="Speed">-400</param>
+                </action>
+                <action id="4" name="Set animation" sid="4111240976622908" type="Car">
+                    <param id="0" name="Animation">tokenat(&quot;taxi:police&quot;, int(random(2)), &quot;:&quot;)</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2531710054089496">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="9540286964262516" type="System">
+                    <param id="0" name="Interval (seconds)">random(3, 6)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="3401261608923388" type="System">
+                    <param id="0" name="Object to create">Car</param>
+                    <param id="1" name="Layer">&quot;Stuff&quot;</param>
+                    <param id="2" name="X">-100</param>
+                    <param id="3" name="Y">841</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" sid="6922553487900508" type="Car">
+                    <param id="0" name="Speed">-400</param>
+                </action>
+                <action id="4" name="Set animation" sid="1171703047714057" type="Car">
+                    <param id="0" name="Animation">tokenat(&quot;taxi:police&quot;, int(random(2)), &quot;:&quot;)</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
@@ -109,6 +228,45 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="901358326780757" type="Car" />
+            </actions>
+        </event-block>
+        <event-block sid="3045013569946823">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9507711530693986" type="Frog">
+                    <param id="0" name="Object">Car</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="6117583433803956" type="Frog">
+                    <param id="0" name="Object">Explosion</param>
+                    <param id="1" name="Layer">&quot;Stuff&quot;</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="175198942553496" type="Frog" />
+                <action id="-15" name="Set visible" sid="3223317643120029" type="GameOverText">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3725257128560802">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="2644469432421983" type="Frog">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="Y co-ordinate">160</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="4282177585172841" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">100</param>
+                </action>
+                <action id="-3" name="Set position" sid="6788478887341444" type="Frog">
+                    <param id="0" name="X">75</param>
+                    <param id="1" name="Y">910</param>
+                </action>
+                <action id="0" name="Set text" sid="8878526864228644" type="ScoreText">
+                    <param id="0" name="Text">&quot;Score: &quot; &amp; Score</param>
+                </action>
             </actions>
         </event-block>
     </events>

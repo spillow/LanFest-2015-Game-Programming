@@ -10,11 +10,14 @@
     <unique-id>26ne0b3hvayov</unique-id>
     <saved-with-version>20000</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -96,21 +99,70 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2612313333117497" speed="5">
+                <animation framecount="1" loop="0" name="taxi" pingpong="0" repeatcount="1" repeatto="0" sid="2612313333117497" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\topdown_vehicle_sprites_pack\taxi.png">
                         <collision-poly>
-                            <point x="0.292969" y="0.707031" />
-                            <point x="0.0546875" y="0.5" />
-                            <point x="0.3125" y="0.3125" />
-                            <point x="0.5" y="0.335938" />
-                            <point x="0.671875" y="0.328125" />
-                            <point x="0.917969" y="0.5" />
-                            <point x="0.710938" y="0.710938" />
-                            <point x="0.5" y="0.703125" />
+                            <point x="0.707031" y="0.292969" />
+                            <point x="0.945313" y="0.5" />
+                            <point x="0.6875" y="0.6875" />
+                            <point x="0.5" y="0.664063" />
+                            <point x="0.328125" y="0.671875" />
+                            <point x="0.0820313" y="0.5" />
+                            <point x="0.289063" y="0.289063" />
+                            <point x="0.5" y="0.296875" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="3" loop="1" name="police" pingpong="0" repeatcount="1" repeatto="0" sid="5568542830173671" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\topdown_vehicle_sprites_pack\Police_animation\1.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\topdown_vehicle_sprites_pack\Police_animation\2.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\topdown_vehicle_sprites_pack\Police_animation\3.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
                         </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="Particles" sid="2323215094758876">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="Explosion" sid="5108599971216553">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="1816158539390768">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8691437115199376" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504951" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\explode.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ScoreText" sid="9471490148084486">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="GameOverText" sid="1696306633088508">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />
