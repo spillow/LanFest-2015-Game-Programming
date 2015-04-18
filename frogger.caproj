@@ -12,7 +12,9 @@
     <used-plugins>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
     </used-plugins>
-    <used-behaviors />
+    <used-behaviors>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -42,8 +44,16 @@
     <object-folder>
         <object-type name="Frog" sid="1938216002804112">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="Direction frog is facing" name="Direction" sid="5867213595507412" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="8Direction" sid="5466747332134223">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
-                <animation framecount="4" loop="1" name="forward" pingpong="0" repeatcount="1" repeatto="0" sid="4441374982949039" speed="5">
+                <animation framecount="4" loop="0" name="forward" pingpong="0" repeatcount="1" repeatto="0" sid="4441374982949039" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
