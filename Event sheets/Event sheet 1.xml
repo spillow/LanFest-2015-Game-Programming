@@ -2,5 +2,84 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
-    <events />
+    <events>
+        <event-block sid="8517678998505349">
+            <conditions>
+                <condition behavior="8Direction" id="0" name="Is moving" sid="8252275626871864" type="Frog" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="4303810247628998">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="4108381480770466" type="System">
+                            <param id="0" name="First value">Frog.8Direction.MovingAngle</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">-90</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="4625198225561457" type="Frog">
+                            <param id="0" name="Instance variable">Direction</param>
+                            <param id="1" name="Value">&quot;Up&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7606192428830038">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="7775548475084443" type="System">
+                            <param id="0" name="First value">Frog.8Direction.MovingAngle</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">180</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="8458995195339246" type="Frog">
+                            <param id="0" name="Instance variable">Direction</param>
+                            <param id="1" name="Value">&quot;Left&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4947854511081882">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="5291756879193331" type="System">
+                            <param id="0" name="First value">Frog.8Direction.MovingAngle</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="1271700537172449" type="Frog">
+                            <param id="0" name="Instance variable">Direction</param>
+                            <param id="1" name="Value">&quot;Right&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1604296104169195">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="9734580882343458" type="System">
+                            <param id="0" name="First value">Frog.8Direction.MovingAngle</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">90</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="3110598304220233" type="Frog">
+                            <param id="0" name="Instance variable">Direction</param>
+                            <param id="1" name="Value">&quot;Down&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="7674025736261253">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="4522624518437829" type="Frog">
+                    <param id="0" name="Instance variable">Direction</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Up&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
 </c2eventsheet>
