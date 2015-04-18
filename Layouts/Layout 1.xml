@@ -130,11 +130,11 @@
                         <x>1388</x>
                         <y>253</y>
                         <z>0</z>
-                        <width>174</width>
-                        <height>154</height>
+                        <width>160.40625</width>
+                        <height>77</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.466101706</hotspotX>
+                        <hotspotY>0.5625</hotspotY>
                         <angle>3.141592741</angle>
                         <opacity>1</opacity>
                     </world>
@@ -203,7 +203,7 @@
                     <properties>
                         <text>Game Over!</text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Buxton Sketch,-96,700,0</font>
+                        <font>AR CARTER,-96,700,0</font>
                         <color>255,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
