@@ -55,31 +55,28 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="4" loop="0" name="Up" pingpong="0" repeatcount="1" repeatto="0" sid="4441374982949039" speed="10">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\frog\frog_up\0.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\frog\frog_up\1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\frog\frog_up\2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\frog\frog_up\3.png" />
                 </animation>
                 <animation framecount="4" loop="0" name="Down" pingpong="0" repeatcount="1" repeatto="0" sid="6367643222714498" speed="10">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\frog\frog_down\0.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\frog\frog_down\1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\frog\frog_down\2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\frog\frog_down\3.png" />
                 </animation>
                 <animation framecount="4" loop="0" name="Left" pingpong="0" repeatcount="1" repeatto="0" sid="5531351153902002" speed="10">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\frog\frog_left\0.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\frog\frog_left\1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\frog\frog_left\2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\frog\frog_left\3.png" />
                 </animation>
                 <animation framecount="4" loop="0" name="Right" pingpong="0" repeatcount="1" repeatto="0" sid="5048499165208014" speed="10">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-                <animation framecount="1" loop="0" name="StandUp" pingpong="0" repeatcount="1" repeatto="0" sid="7338161096786838" speed="1">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\frog\frog_right\0.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\frog\frog_right\1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\frog\frog_right\2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\spillow\Documents\GitHub\LanFest-2015-Game-Programming\images\frog\frog_right\3.png" />
                 </animation>
             </animation-folder>
         </object-type>
