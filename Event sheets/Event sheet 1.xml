@@ -82,5 +82,34 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <event-block sid="873826918830511">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="9913859161286571" type="System">
+                    <param id="0" name="Interval (seconds)">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="3417186347524681" type="System">
+                    <param id="0" name="Object to create">Car</param>
+                    <param id="1" name="Layer">&quot;Stuff&quot;</param>
+                    <param id="2" name="X">1390</param>
+                    <param id="3" name="Y">250</param>
+                </action>
+                <action id="-8" name="Set angle" sid="4111795035376436" type="Car">
+                    <param id="0" name="Angle">180</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4685311546757701">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="8259137740120725" type="Car">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">-200</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="901358326780757" type="Car" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
